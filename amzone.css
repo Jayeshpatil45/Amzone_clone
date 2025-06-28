@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.nav-bar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** box 1 **/
+.logo {
+    color: rgb(216, 150, 7);
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    height: 35px;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box 2 **/ 
+
+.add-first {
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 10px ;
+}
+
+/** box 3 **/
+
+.nav-ser {
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.nav-ser:hover {
+    border : 3px solid rgba(255, 166, 0, 0.884);
+}
+.ser-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+    border : none;  
+}
+.ser-input {
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+}
+.ser-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    background-color: rgba(243, 189, 10, 0.986);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/** box 4 **/
+
+.nav-fst {
+  font-size: 13px;
+}
+
+.nav-second {
+    font-weight: 700;
+}
+
+/** box 5 **/
+
+.nav-return {
+    font-size: 0.85rem;
+}
+.nav-order {
+    font-weight: 700;
+}
+
+/** box 6 **/
+
+.view {
+    font-size: 0.85rem ;
+}
+.cart {
+    font-weight: 750;
+}
+
+/** panel 2 **/
+
+.nav-panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color : white;
+    justify-content: space-evenly;
+}
+.panel-opt {
+    width: 70%;
+    font-size: 14px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.anker {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.panel-del {
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.panelall {
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+
+/** Hero SEction **/
+
+.hero-sec {
+    background-image: url("hero-section.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-pan {
+    background-color: white;
+    color : black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 25px;
+}
+.hero-pan a {
+    color : #007185;
+}
+
+/** Shop Section **/
+.shop-sec {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e7e2e5;
+}
+.box {
+    border: 2px;
+    height: 300px;
+    width: 32%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 250px;
+    background-size: cover;
+}
+
+.box-con {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-con p {
+    color : #007185;
+}
+
+/** footer Panel **/
+
+footer {
+    margin-top: 15px;
+}
+.foot-panel2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-toppanel {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+}
+ul {
+    margin-top: 20px;
+}
+ul p {
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1.5px solid white;
+    height: 60px;
+    color:  rgb(216, 150, 7);
+    font-size: 1.5rem;
+}
+
+.foot-panel4 {
+    background-color: #131A22;
+    color: white;
+    height: 60px;
+    font-size: 0.80rem;
+    text-align: center;
+}
+.foot-pages {
+  padding-top: 15px;
+}
+.foot-copyright {
+   margin-top: 5px;
+}
