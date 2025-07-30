@@ -10,6 +10,6 @@ sign_click.addEventListener("click", function() {
   document.querySelector(".register-container").style.display = "none";
 });
 
-document.querySelector("#Register").addEventListener("click" , function() {
-    document.querySelector(".register-container").style.display = "initial";
+document.querySelector(".Register").addEventListener("click" , function() {
+   document.querySelector(".register-container").style.display = "initial";
 })
