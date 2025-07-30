@@ -6,7 +6,7 @@
 
 .nav-bar {
     height: 60px;
-    background-color: #0f1111;
+    background-color: #222f3d;
     color: white;
     display: flex;
     align-items: center;
@@ -14,24 +14,19 @@
 }
 
 /** box 1 **/
-.logo {
-    color: rgb(216, 150, 7);
-}
-.nav-logo {
-    height: 50px;
-    width: 100px;
-    display: flex;
-    font-size: 25px;
-    align-items: center;
-}
 
-.border {
+
+.border , .border-2 {
     border: 1.5px solid transparent;
     height: 35px;
 }
 
 .border:hover {
     border: 1.5px solid white;
+}
+
+.border-2:hover {
+    border: 1.5px solid #222f3d;
 }
 
 /** box 2 **/ 
@@ -115,9 +110,9 @@
 
 .nav-panel {
     height: 40px;
-    background-color: #222f3d;
+    background-color: #ede167;
     display: flex;
-    color : white;
+    color : #222f3d;
     justify-content: space-evenly;
 }
 .panel-opt {
@@ -261,3 +256,4 @@ ul a{
 .foot-copyright {
    margin-top: 5px;
 }
+

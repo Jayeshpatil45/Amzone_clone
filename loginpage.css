@@ -1,0 +1,100 @@
+
+.container {
+  display: none;  /* hide by default */
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.welcome-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1d2835;
+  color: #fff;
+  width: 400px;
+  height: 526px;
+  padding: 30px;
+  border-radius: 8px;
+  border-top-left-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.welcome-box h1 {
+  margin-bottom: 20px;
+}
+
+.welcome-box p {
+  font-size: 16px;
+}
+
+.register-container {
+  background: #ffffff;
+  padding: 29px 39px;
+  border-radius: 8px; 
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.6);
+ /* fixed! */
+  width: 350px;
+  height: 526px;
+  border-bottom-right-radius: 50px;
+}
+
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0f161d;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  background: #131A22;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background: #304862;
+}
+
+/* Make it responsive */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .welcome-box, .register-container {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+
+.style {
+  width: 100px;
+  height: 20px;
+  background-color: #d8cc43;
+  color: #0a3081;
+  padding: 5px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.style:hover {
+  background-color: #3985ff;
+  color: white;
+}
